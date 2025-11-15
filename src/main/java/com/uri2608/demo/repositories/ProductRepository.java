@@ -13,4 +13,4 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
             "FROM products " )
     List<ProductProjection> search();
 }
-
+//Veja que usando o "AS nome" , esse nome precisa ser parecido com o que temos declarado no projection. 
