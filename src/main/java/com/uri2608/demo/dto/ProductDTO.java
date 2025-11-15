@@ -6,6 +6,8 @@ public class ProductDTO {
     private Double maxPrice;
     private Double minPrice;
 
+    //A ideia que temos no projection será a mesma ideia aqui no dto
+
     public ProductDTO(Double maxPrice, Double minPrice) {
         this.maxPrice = maxPrice;
         this.minPrice = minPrice;
